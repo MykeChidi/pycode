@@ -14,8 +14,8 @@ def create_audio_book(txt_file, audio_file):
     print(f"Audiobook saved as {audio_file}")
 
 def main():
-    txt_file = 'C:\\Users\\hp\\Documents\\requirements.txt'
-    audio_file = 'C:\\Users\\hp\\Documents\\audio.mp3'
+    txt_file = 'path\\to\\file.txt'
+    audio_file = 'path\\to\\audio.mp3'
 
     create_audio_book(txt_file, audio_file)
     os.system(f"start {audio_file}")
