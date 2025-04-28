@@ -29,6 +29,6 @@ def pencil_sketch(image_path, output_path):
     except Exception as e:
         print(e)
        
-input_image_path = 'C:\\Users\\hp\\Documents\\IMG_4.jpg'
-output_image_path = 'C:\\Users\\hp\\Documents\\sketch_8.jpg'
+input_image_path = 'path\\to\\image.jpg'
+output_image_path = 'path\\to\\sketch.jpg'
 pencil_sketch(input_image_path, output_image_path)
