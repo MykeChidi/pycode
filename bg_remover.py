@@ -10,7 +10,7 @@ def remove_background(input_img, output_img):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-input_img = 'C:\\Users\\hp\\Documents\\img_3.jpg'
-output_img = 'C:\\Users\\hp\\Documents\\outputimg.png'
+input_img = 'path\\to\\img_3.jpg'
+output_img = 'path\\to\\outputimg.png'
 
 remove_background(input_img, output_img)
